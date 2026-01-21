@@ -5,6 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
+    <meta property="og:image" content="https://sys.spaceboi.dev/assets/img/icon.webp">
+    <meta name="title" content="Sysmatic — Discord System &amp; Alter Manager">
+    <meta name="description" content="Sysmatic is a lightweight Discord app for systems to create, customise, and manage alters with names, avatars, colours, pronouns, and descriptions. Includes quick messaging and fronting commands.">
+    <meta property="og:title" content="Sysmatic — Discord System &amp; Alter Manager">
+    <meta property="og:description" content="Sysmatic is a lightweight Discord app for systems to create, customise, and manage alters with names, avatars, colours, pronouns, and descriptions. Includes quick messaging and fronting commands.">
+    <meta property="og:url" content="https://sys.spaceboi.dev/">
+    <meta property="og:type" content="website">
+    <meta property="twitter:title" content="Sysmatic — Discord System &amp; Alter Manager">
+    <meta property="twitter:description" content="Sysmatic is a lightweight Discord app for systems to create, customise, and manage alters with names, avatars, colours, pronouns, and descriptions. Includes quick messaging and fronting commands.">
+    <meta property="twitter:card" content="summary_small_image">
+    <meta property="twitter:url" content="https://sys.spaceboi.dev/">
+    <meta name="twitter:image" content="https://sys.spaceboi.dev/assets/img/icon.webp">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Azeret+Mono:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="assets/css/bss-overrides.css">
@@ -69,6 +81,24 @@
                                 </div>
                                 <div class="bg-primary-subtle d-md-flex justify-content-md-between p-3 mb-3">
                                     <div class="mb-3 mb-md-0">
+                                        <p class="fw-bold mb-1">/sr [id]</p>
+                                        <p class="mb-0">ID = ID of alter</p>
+                                    </div>
+                                    <div class="text-md-end">
+                                        <p class="text-primary mb-1"><strong>System Remove</strong><br><sup>Remove an alter</sup></p>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex justify-content-md-between p-3 mb-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <p class="fw-bold mb-1">/sf [id]</p>
+                                        <p class="mb-0">ID = ID of alter</p>
+                                    </div>
+                                    <div class="text-md-end">
+                                        <p class="text-primary mb-1"><strong>System Front</strong><br><sup>Set the fronting alter</sup></p>
+                                    </div>
+                                </div>
+                                <div class="bg-primary-subtle d-md-flex justify-content-md-between p-3 mb-3">
+                                    <div class="mb-3 mb-md-0">
                                         <p class="fw-bold mb-1">/sm [id] [message]</p>
                                         <p class="mb-0">ID = ID of alter<br>Message = Message to send</p>
                                     </div>
@@ -78,6 +108,15 @@
                                 </div>
                                 <div class="d-md-flex justify-content-md-between p-3 mb-3">
                                     <div class="mb-3 mb-md-0">
+                                        <p class="fw-bold mb-1">/sqm [message]</p>
+                                        <p class="mb-0">Message = Message to send</p>
+                                    </div>
+                                    <div class="text-md-end">
+                                        <p class="text-primary mb-1"><strong>System Quick Message</strong><br><sup>Send a message as the fronting alter</sup></p>
+                                    </div>
+                                </div>
+                                <div class="bg-primary-subtle d-md-flex justify-content-md-between p-3 mb-3">
+                                    <div class="mb-3 mb-md-0">
                                         <p class="fw-bold mb-1">/sp [id]</p>
                                         <p class="mb-0">ID = ID of alter</p>
                                     </div>
@@ -85,7 +124,7 @@
                                         <p class="text-primary mb-1"><strong>System Profile</strong><br><sup>Shows the profile of a specific alter</sup></p>
                                     </div>
                                 </div>
-                                <div class="bg-primary-subtle d-md-flex justify-content-md-between p-3 mb-3">
+                                <div class="d-md-flex justify-content-md-between p-3 mb-3">
                                     <div class="mb-3 mb-md-0">
                                         <p class="fw-bold mb-1">/sl</p>
                                     </div>
@@ -93,12 +132,12 @@
                                         <p class="text-primary mb-1"><strong>System List</strong><br><sup>Lists your added alters</sup></p>
                                     </div>
                                 </div>
-                                <div class="d-md-flex justify-content-md-between p-3 mb-3">
+                                <div class="bg-primary-subtle d-md-flex justify-content-md-between p-3 mb-3">
                                     <div class="mb-3 mb-md-0">
                                         <p class="fw-bold mb-1">/si</p>
                                     </div>
                                     <div class="text-md-end">
-                                        <p class="text-primary mb-1"><strong>System Information</strong><br><sup>Displays information of your system</sup></p>
+                                        <p class="text-primary mb-1"><strong>System Information</strong><br><sup>Displays information about your system</sup></p>
                                     </div>
                                 </div>
                             </div>
